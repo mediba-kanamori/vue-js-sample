@@ -1,3 +1,5 @@
+dist/*.js
+
 ### https://raw.github.com/github/gitignore/e6dd3a81e6037cc923e503e372c80326f65ccb25/Node.gitignore
 
 # Logs
@@ -71,5 +73,3 @@ Icon
 Network Trash Folder
 Temporary Items
 .apdisk
-
-
