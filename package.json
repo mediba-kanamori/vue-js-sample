@@ -4,6 +4,9 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
+    "watch": "npm run watch:js & npm run run:server",
+    "watch:js": "watchify -vd -p browserify-hmr -e src/main.js -o dist/build.js",
+    "run:server": "http-server -c-1 -a localhost",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "browserify": {
