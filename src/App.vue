@@ -1,25 +1,13 @@
 <template>
-  <p>
-    {{ message }}
-  </p>
+  <a v-link="{ path: '/fuga' }">fuga</a>
+  <a v-link="{ path: '/hello' }">hello</a>
+  <router-view></router-view>
 </template>
 
 <script>
-import Hello from './components/Hello.vue';
-
 export default {
-  data() {
-    return {
-      message: 'Hello World!'
-    }
-  },
-
-  components: {
-    Hello
-  },
-
   created() {
-    console.log('hoge');
+    console.log('app');
   }
 }
 </script>
